@@ -1,0 +1,50 @@
+<html>
+
+<body>
+  <div class="signup-form">
+    <h2>Create a account </h2>
+    <form action="">
+      <div class="input-row">
+        <input type="text" placeholder="Enter your first name" id="fname" name="fname" required>
+
+        <input type="text" placeholder="Enter your last name" id="sss1" name="sss1" required>
+      </div>
+
+      <div class="input-row">
+        <input type="email" placeholder="Enter your mailid" id="uemail" name="useremail" required>
+      </div>
+
+      <div class="input-row">
+        <input type="password" placeholder="Enter your password" id="uemail" name="useremail" required>
+      </div>
+   
+      <div class="input-row">
+        <input type="text" placeholder="Enter your mobile number" id="unumber" name="usernumber" required>
+      </div>
+      
+      <div class="input-row">
+        <input type="date" id="birthday" name="birthday" required>
+      </div>
+
+      <div class="input-row">
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other
+      </div>
+      
+      
+       <div class="input-row">
+         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I agree to the term of use</label><br>
+      </div>
+
+      <div class="input-row"> <button type="submit" class=button>Sign Up</button>
+        <button type="reset" class=button>Reset</button>
+      </div>
+   
+    </form>
+  </div>
+
+</body>
+
+</html>
